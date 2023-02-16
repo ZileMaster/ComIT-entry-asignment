@@ -10,7 +10,7 @@ const MainMenu = () => {
   };
 
   return (
-    <div className="flex justify-between border border-gray-400 p-4">
+    <div className="flex justify-between border border-gray-400 p-4" style={{ marginTop: '30px' }}>
       <MenuButton selected={selectedButton === 'Button 1'} onClick={() => handleButtonSelect('Button 1')}>
         Button 1
       </MenuButton>

@@ -4,7 +4,7 @@ const Card = ({ title, description, imgSrc, isSmall }) => {
   const heightClass = isSmall ? 'h-48' : 'h-64';
 
   return (
-    <div className={`shadow-md rounded-lg overflow-hidden ${heightClass}`}>
+    <div className={`shadow-md overflow-hidden p-4 ${heightClass}`}>
       <img className="w-full object-cover object-center" src={imgSrc} alt={title} />
       <div className="p-4">
         <h2 className="text-lg font-medium mb-2">{title}</h2>
