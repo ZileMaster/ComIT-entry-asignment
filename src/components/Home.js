@@ -1,10 +1,14 @@
 import React from 'react';
 import Card from './Card';
 import AllCards from './AllCards';
+import Header from './Header';
 
 const HomePage = () => {
   return (
-    <AllCards />
+    <div>
+      <Header />
+      <AllCards />
+    </div>
   );
 };
 

@@ -5,7 +5,7 @@ const AllCards = () => {
   return (
     <div className="w-screen h-90vh mx-auto border-2 border-blue-300">
     <div className="flex justify-center items-center h-90 w-80 mx-auto">
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-2">
       <div>
         <Card
           title="Card 1"
