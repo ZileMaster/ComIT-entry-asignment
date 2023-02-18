@@ -15,7 +15,7 @@ const AllCards = () => {
       </div>
       <div>
         <Card
-          title="Card2"
+          title="Card 2"
           description="This is card 2"
           imgSrc="https://placeimg.com/640/480/any"
         />
