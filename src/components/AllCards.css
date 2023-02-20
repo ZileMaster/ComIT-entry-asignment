@@ -1,0 +1,14 @@
+.card-container {
+  flex-basis: 250px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-color: aqua;
+}
+
+@media (max-width: 640px) {
+  .card-container {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
