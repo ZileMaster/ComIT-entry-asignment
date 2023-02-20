@@ -4,7 +4,15 @@
   box-sizing: border-box;
   border: 2px solid;
   border-color: aqua;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  transition: border-width 0.3s ease-out;
 }
+
+.card-container:hover {
+    border-bottom-width: 6px;
+    border-right-width: 6px;
+  }
 
 @media (max-width: 640px) {
   .card-container {

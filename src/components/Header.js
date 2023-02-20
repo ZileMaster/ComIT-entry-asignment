@@ -8,9 +8,6 @@ const Header = () => {
       <div className="flex justify-end">
         <TopMenu />
       </div>
-      <div className="flex justify-end mt-10">
-        <MainMenu />
-      </div>
     </div>
   );
 };
